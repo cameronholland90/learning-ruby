@@ -2,11 +2,11 @@
 
 # Defining a constant
 PI = 3.1416
-puts PI
+puts PI 	# Outputs: 3.1416
 
 # Defining a local variable
 my_string = 'I love my city, Pune'
-puts my_string
+puts my_string	# Outputs: I love my city, Pune
 
 =begin
 	
@@ -16,13 +16,14 @@ puts my_string
 =end
 var1 = 5;
 var2 = '2'
-puts var1 + var2.to_i
+puts var1 + var2.to_i # Outputs: 7 by converting '2' to interger of 2
 
 # << appending to a string
 a = 'hello'
 a<<'world.
 I love this world...'
-puts a
+puts a 	# Outputs: helloworld.
+		# I love this world...
 =begin
 	
 	<< marks the start of the string literal and is followed by a delimiter of your choice. 
@@ -35,4 +36,5 @@ a = <<END_STR
 This is the string
 And a second line
 END_STR
-puts a
+puts a 		# Outputs: This is the string
+			# And a second line

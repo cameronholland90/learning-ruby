@@ -1,2 +1,2 @@
 # p001hello.rb
-puts 'Hello'
+puts 'Hello'	# Outputs Hello
