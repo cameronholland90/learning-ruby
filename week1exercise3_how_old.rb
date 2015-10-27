@@ -6,6 +6,7 @@
 =end
 
 def secondsToYears (ageInSeconds)
+	
 	secondsInMinute = 60
 	minutesInHour = 60
 	hoursInDay = 24
