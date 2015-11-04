@@ -6,8 +6,6 @@ s = "Welcome to the forum.\nHere you can learn Ruby.\nAlong with other members.\
 
 array_of_s = stringToArray( s )
 
-line_num = 1
-array_of_s.cycle(1) do |line|
-	puts "Line #{line_num}: #{line}"
-	line_num = line_num + 1
+array_of_s.each.with_index do |line, line_num|
+	puts "Line #{line_num + 1}: #{line}"
 end
